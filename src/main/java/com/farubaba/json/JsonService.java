@@ -12,8 +12,6 @@ public interface JsonService{
 	
 	public <E> String toJsonString(E e);
 	
-	public <B> void handleJson(String jsonString, Class<B> clazz);
-	
 	public boolean isValidJson(JsonType jsonType);
 	public boolean isValidJsonObject(JsonType jsonType);
 	public boolean isValidJsonArray(JsonType jsonType);
